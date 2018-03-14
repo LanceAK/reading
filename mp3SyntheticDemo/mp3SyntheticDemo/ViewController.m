@@ -13,6 +13,7 @@
 
 @property (nonatomic, strong) AVAudioPlayer *player;
 @property (nonatomic, copy) NSString *tempSgtring;
+@property (nonatomic, copy) NSString *hahah;
 
 @end
 
