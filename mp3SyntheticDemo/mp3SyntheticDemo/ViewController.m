@@ -12,6 +12,7 @@
 @interface ViewController ()<AVAudioPlayerDelegate>
 
 @property (nonatomic, strong) AVAudioPlayer *player;
+@property (nonatomic, copy) NSString *tempSgtring;
 
 @end
 
