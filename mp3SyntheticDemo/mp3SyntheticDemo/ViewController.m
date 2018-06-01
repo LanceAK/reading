@@ -60,6 +60,7 @@
     //保存音频
     
     NSLog(@"data length:%lu", (unsigned long)[sounds length]);
+    NSLog(@"data length:%lu", (unsigned long)[sounds length]);
     
     [sounds writeToFile:[self filePathWithName:@"tmp.mp3"] atomically:YES];
     
